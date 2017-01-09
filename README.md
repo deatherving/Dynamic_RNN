@@ -3,9 +3,9 @@ This is the implementation of a basic tensorflow dynamic RNN according to the co
 
 In my version, 
 
-１.We use dynamic_partition to remove the warning of tf.gather():
+1. We use dynamic_partition to remove the warning of tf.gather():
 
 UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
 Converting sparse IndexedSlices to a dense Tensor of unknown shape.
 
-2.In order to improve the convergence we apply truncated weights initializer.
+2. In order to improve the convergence we apply truncated weights initializer.
